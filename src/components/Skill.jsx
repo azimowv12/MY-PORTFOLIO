@@ -17,7 +17,7 @@ const skills = [
 export default function Skills() {
     const {t} = useTranslation()
   return (
-    <section id="Skill" className="text-white bg-gray-900 py-12">
+    <section id="Skill" className="text-white bg-gray-900 py-12 mt-5">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-10 relative inline-block">
           {t('header.nav3')}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from './components/navbar'
 import Herooo from './components/hero'
 import Skills from './components/Skill'
@@ -9,22 +9,33 @@ import ScrollToTopButton from './components/Scrool'
 import Welcome from './components/Welcome'
 
 export default function App() {
-  return (
-    <div className=''>
-      <Welcome />
-      <header>
-        <Navbar />
-        <Herooo />
-        <ScrollToTopButton/>
-      </header>
-      <main>
+  const [dark, setDark] = useState(false)
 
+  useEffect(() => {
+    if (dark) {
+      document.documentElement.classList.add("dark")   // butun sahifaga dark
+    } else {
+      document.documentElement.classList.remove("dark")
+    }
+  }, [dark])
+
+  return (
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-500">
+      <Welcome />
+
+      <header>
+        <Navbar dark={dark} setDark={setDark} /> {/* props berildi */}
+        <Herooo dark={dark}/>
+        <ScrollToTopButton />
+      </header>
+
+      <main>
         <About />
         <Skills />
-        <Work/>
+        <Work />
       </main>
-      <Aloqa/>
+
+      <Aloqa />
     </div>
   )
 }
-
