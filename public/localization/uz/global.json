@@ -1,0 +1,76 @@
+{
+  "header": {
+    "logo": "Azimov",
+    "nav1": "Bosh sahifa",
+    "nav2": "Men haqimda",
+    "nav3": "Ko'nikmalar",
+    "nav4": "Aloqa",
+    "nav5": "Mening ishlarim"
+  },
+  "hero": {
+    "title": "Men",
+    "typed": [
+      "Veb dasturchi",
+      "Frontend dasturchi",
+      "Freelancer"
+    ],
+    "desc": "Zamonaviy, moslashuvchan va toza kodli vebsaytlar yarataman.",
+    "btn1": "Meni yollang",
+    "btn2": "Aloqa"
+  },
+  "about": {
+    "title": "Men haqimda",
+    "data": [
+      {
+        "label": "Ism",
+        "value": "Lochinbek"
+      },
+      {
+        "label": "Yosh",
+        "value": "15"
+      },
+      {
+        "label": "Yashash joyi",
+        "value": "Buxoro"
+      },
+      {
+        "label": "Ta'lim",
+        "value": "16-maktab"
+      },
+      {
+        "label": "Familiya",
+        "value": "Azimov"
+      },
+      {
+        "label": "Kasb",
+        "value": "Dasturchi"
+      }
+    ]
+  },
+  "work": {
+    "title": "Mening ishlarim",
+    "btn1": "Batafsil"
+  },
+  "uz": [
+    {
+      "name": "Bosh sahifa",
+      "icon": "FaHome"
+    },
+    {
+      "name": "Men haqimda",
+      "icon": "FaUser"
+    },
+    {
+      "name": "Ko'nikmalar",
+      "icon": "FaTools"
+    },
+    {
+      "name": "Mening ishlarim",
+      "icon": "FaBriefcase"
+    },
+    {
+      "name": "Aloqa",
+      "icon": "FaEnvelope"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "header": {
+    "logo": "Azimov",
+    "nav1": "Home",
+    "nav2": "About me",
+    "nav3": "Skill",
+    "nav4": "Contact",
+    "nav5": "My Works"
+  },
+  "hero": {
+    "title": "I am",
+    "typed": [
+      "Web Developer",
+      "Frontend Developer",
+      "Freelancer"
+    ],
+    "desc": "I create modern websites with responsive design and clean code.",
+    "btn1": "Hire Me",
+    "btn2": "Contact"
+  },
+  "about": {
+    "title": "About",
+    "data": [
+      {
+        "label": "Name",
+        "value": "Lochinbek"
+      },
+      {
+        "label": "Age",
+        "value": "15"
+      },
+      {
+        "label": "Live",
+        "value": "Bukhara"
+      },
+      {
+        "label": "Education",
+        "value": "School №16"
+      },
+      {
+        "label": "Surname",
+        "value": "Azimov"
+      },
+      {
+        "label": "Occupation",
+        "value": "Developer"
+      }
+    ]
+  },
+  "work": {
+    "title": "My Works",
+    "btn1": "Details"
+  },
+  "en": [
+    {
+      "name": "Home",
+      "icon": "FaHome"
+    },
+    {
+      "name": "About",
+      "icon": "FaUser"
+    },
+    {
+      "name": "Skills",
+      "icon": "FaTools"
+    },
+    {
+      "name": "Work",
+      "icon": "FaBriefcase"
+    },
+    {
+      "name": "Contact",
+      "icon": "FaEnvelope"
+    }
+  ]
+}
